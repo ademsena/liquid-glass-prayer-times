@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="styleMode" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="appearance" type="Int">
+            <default>2</default>
+        </entry>
+        <entry name="cornerRadius" type="Int">
+            <default>36</default>
+        </entry>
+        <entry name="roundnessX10" type="Int">
+            <default>75</default>
+        </entry>
+        <entry name="refractThickness" type="Int">
+            <default>14</default>
+        </entry>
+        <entry name="refractIORx100" type="Int">
+            <default>100</default>
+        </entry>
+        <entry name="refractScale" type="Int">
+            <default>15</default>
+        </entry>
+        <entry name="tintAlphaPct" type="Int">
+            <default>6</default>
+        </entry>
+        <entry name="chromaStrengthPct" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="specStrengthPct" type="Int">
+            <default>65</default>
+        </entry>
+        <entry name="blurRadiusPx" type="Int">
+            <default>10</default>
+        </entry>
+        <entry name="realtimeRefraction" type="Bool">
+            <default>false</default>
+        </entry>
+    </group>
+
+    <group name="Prayer">
+        <entry name="city" type="String">
+            <default>Ankara</default>
+        </entry>
+        <entry name="country" type="String">
+            <default>Turkey</default>
+        </entry>
+        <entry name="methodIndex" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="accentHex" type="String">
+            <default>#04e4b5</default>
+        </entry>
+        <entry name="nextAccentHex" type="String">
+            <default>#FF3B30</default>
+        </entry>
+        <entry name="use24h" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="language" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="enabledPrayers" type="StringList">
+            <default>Fajr,Sunrise,Dhuhr,Asr,Maghrib,Isha</default>
+        </entry>
+        <entry name="warnMinutes" type="Int">
+            <default>15</default>
+        </entry>
+        <entry name="warnOpacityPct" type="Int">
+            <default>35</default>
+        </entry>
+        <entry name="refreshCounter" type="Int">
+            <default>0</default>
+        </entry>
+    </group>
+
+    <group name="Cache">
+        <entry name="cacheJson" type="String">
+            <default></default>
+        </entry>
+        <entry name="geoJson" type="String">
+            <default></default>
+        </entry>
+        <entry name="lastFetch" type="String">
+            <default></default>
+        </entry>
+        <entry name="lastError" type="String">
+            <default></default>
+        </entry>
+    </group>
+</kcfg>

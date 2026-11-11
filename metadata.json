@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "249933457+ademsena@users.noreply.github.com",
+                "Name": "Adem"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Live countdown to the next prayer on a frosted-glass card, with today's prayer times. Liquid Glass look ported from the macOS Widgets pack by Jack Faith; prayer times via the Aladhan API using Diyanet calculation parameters.",
+        "EnabledByDefault": true,
+        "Icon": "/icon.png",
+        "Id": "com.adems.macoswidgets.namaz",
+        "License": "GPL-3.0",
+        "Name": "macOS Prayer Times",
+        "Version": "1.4",
+        "Website": "https://github.com/ademsena/macos-prayer-times"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
