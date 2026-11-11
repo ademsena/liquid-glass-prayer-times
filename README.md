@@ -186,7 +186,7 @@ this work as its own, it violates the license.
 ## Türkçe
 
 **KDE Plasma 6** için liquid-glass görünümünde namaz vakti widget'ı: sıradaki
-vakte canlı geri sayım, cam kart üzerinde.
+vakte canlı geri sayım, 30 günlük veri çekimi.
 
 Görsel temel,
 [Jack Faith (jaxparrow07)](https://github.com/jaxparrow07/liquidglass-kde-widgets)
@@ -203,6 +203,7 @@ aittir, bu proje üzerine namaz vakti içeriğini ekler.
   formatlarında aynı oranı korur.
 - Açık (beyaz) modda metin ve vurgu renkleri otomatik koyulaştırılır, böylece
   parlak vurgu rengi beyaz zeminde okunabilir kalır.
+- Fazlasıyla özelleştirilebilir KDE namaz vakti widgeti, iyi kullanımlar.
 
 Kurulum: **Releases** sayfasından `liquid-glass-prayer-times-x.y.plasmoid` indirin,
 sonra **Widget Ekle → Get New Widgets… → Install from file**. Kaynaktan:
