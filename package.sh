@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# macos-prayer-times — builds the distributable .plasmoid package.
-# Usage: ./package.sh  →  dist/macos-prayer-times-<version>.plasmoid
+# liquid-glass-prayer-times — builds the distributable .plasmoid package.
+# Usage: ./package.sh  →  dist/liquid-glass-prayer-times-<version>.plasmoid
 # zip aracına bağımlılığı yok: python3 zipfile kullanır.
 set -euo pipefail
 cd "$(dirname "$0")"
 
 VERSION=$(sed -n 's/.*"Version": "\([^"]*\)".*/\1/p' metadata.json)
-OUT="dist/macos-prayer-times-${VERSION}.plasmoid"
+OUT="dist/liquid-glass-prayer-times-${VERSION}.plasmoid"
 
 mkdir -p dist
 rm -f "${OUT}"

@@ -4,7 +4,7 @@
         "Authors": [
             {
                 "Email": "249933457+ademsena@users.noreply.github.com",
-                "Name": "Adem"
+                "Name": "ademsena"
             }
         ],
         "Category": "Utilities",
@@ -13,9 +13,9 @@
         "Icon": "/icon.png",
         "Id": "com.adems.macoswidgets.namaz",
         "License": "GPL-3.0",
-        "Name": "macOS Prayer Times",
+        "Name": "Liquid Glass Prayer Times",
         "Version": "1.4",
-        "Website": "https://github.com/ademsena/macos-prayer-times"
+        "Website": "https://github.com/ademsena/liquid-glass-prayer-times"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
 }

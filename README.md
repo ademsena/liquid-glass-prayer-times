@@ -1,17 +1,17 @@
 <div align="center">
 
-<img width="100%" alt="macOS Prayer Times" src="screenshots/preview.png" />
+<img width="100%" alt="Liquid Glass Prayer Times" src="screenshots/preview.png" />
 
-# macOS Prayer Times
+# Liquid Glass Prayer Times
 
 <i>v1.4</i><br>
 Liquid-glass prayer times widget for KDE Plasma 6 — a live countdown to the
 next prayer on a macOS-style glass card.<br><br>
 
-<a href="https://github.com/ademsena/macos-prayer-times/releases/latest">
-  <img src="https://img.shields.io/github/v/release/ademsena/macos-prayer-times?style=for-the-badge" alt="Latest release">
+<a href="https://github.com/ademsena/liquid-glass-prayer-times/releases/latest">
+  <img src="https://img.shields.io/github/v/release/ademsena/liquid-glass-prayer-times?style=for-the-badge" alt="Latest release">
 </a>
-<a href="https://github.com/ademsena/macos-prayer-times/blob/master/LICENSE">
+<a href="https://github.com/ademsena/liquid-glass-prayer-times/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0">
 </a>
 
@@ -102,27 +102,27 @@ small notice and refreshes itself when the month turns.
 
 ### From a release (recommended)
 
-1. Download the newest `macos-prayer-times-x.y.plasmoid` from the
-   [releases page](https://github.com/ademsena/macos-prayer-times/releases/latest).
+1. Download the newest `liquid-glass-prayer-times-x.y.plasmoid` from the
+   [releases page](https://github.com/ademsena/liquid-glass-prayer-times/releases/latest).
 2. In Plasma: **Add Widgets → Get New Widgets… → Install from file**, then
    select the downloaded package.
-3. Add **macOS Prayer Times** to your desktop or panel.
+3. Add **Liquid Glass Prayer Times** to your desktop or panel.
 
 From a terminal, the same step is:
 
 ```bash
-kpackagetool6 -t Plasma/Applet -i macos-prayer-times-x.y.plasmoid   # install
-kpackagetool6 -t Plasma/Applet -u macos-prayer-times-x.y.plasmoid   # update
+kpackagetool6 -t Plasma/Applet -i liquid-glass-prayer-times-x.y.plasmoid   # install
+kpackagetool6 -t Plasma/Applet -u liquid-glass-prayer-times-x.y.plasmoid   # update
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/ademsena/macos-prayer-times.git
-cd macos-prayer-times
+git clone https://github.com/ademsena/liquid-glass-prayer-times.git
+cd liquid-glass-prayer-times
 
 ./install.sh    # installs to ~/.local/share/plasma/plasmoids/ (no root needed)
-./package.sh    # builds dist/macos-prayer-times-<version>.plasmoid
+./package.sh    # builds dist/liquid-glass-prayer-times-<version>.plasmoid
 ```
 
 `install.sh` replaces the installed copy and prints the next step. If the
@@ -175,8 +175,8 @@ All product names and brands are property of their respective owners.
 
 This widget is free. The only official download locations are:
 
-- Source: https://github.com/ademsena/macos-prayer-times
-- Releases: https://github.com/ademsena/macos-prayer-times/releases/latest
+- Source: https://github.com/ademsena/liquid-glass-prayer-times
+- Releases: https://github.com/ademsena/liquid-glass-prayer-times/releases/latest
 
 If you find a copy that removes attribution, hides the source or presents
 this work as its own, it violates the license.
@@ -204,12 +204,12 @@ aittir, bu proje üzerine namaz vakti içeriğini ekler.
 - Açık (beyaz) modda metin ve vurgu renkleri otomatik koyulaştırılır, böylece
   parlak vurgu rengi beyaz zeminde okunabilir kalır.
 
-Kurulum: **Releases** sayfasından `macos-prayer-times-x.y.plasmoid` indirin,
+Kurulum: **Releases** sayfasından `liquid-glass-prayer-times-x.y.plasmoid` indirin,
 sonra **Widget Ekle → Get New Widgets… → Install from file**. Kaynaktan:
 
 ```bash
 ./install.sh     # ~/.local/share/plasma/plasmoids/ altına kurar
-./package.sh     # dist/macos-prayer-times-<sürüm>.plasmoid üretir
+./package.sh     # dist/liquid-glass-prayer-times-<sürüm>.plasmoid üretir
 ```
 
 Görünüm sekmesinde renkler, köşe yarıçapı ve uyarı süresi; Veri sekmesinde
@@ -231,5 +231,5 @@ tazeler.
 - مواقع عالمية عبر Open-Meteo وواجهة Aladhan للتقويم.
 - ثلاث لغات للواجهة: العربية، English، Türkçe، مع دعم كامل للاتجاه من اليمين
   إلى اليسار والأرقام العربية.
-- التثبيت: نزّل ‎`macos-prayer-times-x.y.plasmoid` من صفحة **Releases**، ثم
+- التثبيت: نزّل ‎`liquid-glass-prayer-times-x.y.plasmoid` من صفحة **Releases**، ثم
   **إضافة ودجات → Get New Widgets… → Install from file**.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# macOS Prayer Times — install / reinstall the plasmoid for the current user.
+# Liquid Glass Prayer Times — install / reinstall the plasmoid for the current user.
 set -euo pipefail
 
 ID="com.adems.macoswidgets.namaz"
@@ -18,5 +18,5 @@ kpackagetool6 --type Plasma/Applet --install "$SRC"
 
 echo
 echo "Kuruldu: $DEST"
-echo "On the desktop: right-click → Add Widgets → \"macOS Prayer Times\"."
+echo "On the desktop: right-click → Add Widgets → \"Liquid Glass Prayer Times\"."
 echo "Listede görünmezse: kquitapp6 plasmashell && kstart6 plasmashell"
