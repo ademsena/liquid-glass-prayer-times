@@ -14,7 +14,7 @@ next prayer on a macOS-style glass card.<br><br>
 <a href="https://github.com/ademsena/liquid-glass-prayer-times/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge" alt="GPL-3.0">
 </a>
-<a href="https://store.kde.org/browse?cat=703">
+<a href="https://www.opendesktop.org/p/2381605/">
   <img src="https://img.shields.io/badge/KDE_Store-Plasma_6_Applets-1d99f3?style=for-the-badge&logo=kde&logoColor=white" alt="KDE Store">
 </a>
 
